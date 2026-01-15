@@ -25,6 +25,7 @@ class TodoProvider extends ChangeNotifier {
   final TextEditingController addController = TextEditingController();
   final TextEditingController editController = TextEditingController();
 
+@override
   void dispose() {
     addController.dispose();
     editController.dispose();

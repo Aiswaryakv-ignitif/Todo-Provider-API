@@ -42,9 +42,9 @@ class TodoScreen extends StatelessWidget {
                           ? const Color.fromARGB(255, 175, 116, 195)
                           : CupertinoColors.extraLightBackgroundGray,
 
-                      //margin: const EdgeInsets.all(10),
+                      margin: const EdgeInsets.all(10),
                       child: Padding(
-                        padding: const EdgeInsets.all(10),
+                        padding: const EdgeInsets.all(6),
                         child: Row(
                           children: [
                             if (!item.isEditing)
